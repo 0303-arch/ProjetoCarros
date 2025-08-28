@@ -15,6 +15,7 @@
         android:src="@drawable/bmw" />
 
     <ImageView
+        android:layout_below="@+id/imgBmw"
         android:id="@+id/imgMercedes"
         android:layout_width="150dp"
         android:layout_height="150dp"
@@ -22,13 +23,15 @@
         android:src="@drawable/mercedes" />
 
     <ImageView
+        android:layout_below="@+id/imgMercedes"
         android:id="@+id/imgFerrari"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:scaleType="centerCrop"
         android:src="@drawable/ferrari" />
-    
+
     <ImageView
+        android:layout_below="@id/imgFerrari"
         android:id="@+id/imgPorsche"
         android:layout_width="150dp"
         android:layout_height="150dp"
