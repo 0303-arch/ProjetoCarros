@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <ImageView
         android:id="@+id/imgBmw"
         android:layout_width="150dp"
@@ -15,6 +16,7 @@
         android:src="@drawable/bmw" />
 
     <ImageView
+        android:layout_toLeftOf=""
         android:layout_below="@+id/imgBmw"
         android:id="@+id/imgMercedes"
         android:layout_width="150dp"
@@ -23,6 +25,8 @@
         android:src="@drawable/mercedes" />
 
     <ImageView
+        android:layout_marginLeft="@android:dimen/app_icon_size"
+        android:layout_toEndOf="@id/imgMercedes"
         android:layout_below="@+id/imgMercedes"
         android:id="@+id/imgFerrari"
         android:layout_width="150dp"
@@ -31,7 +35,8 @@
         android:src="@drawable/ferrari" />
 
     <ImageView
-        android:layout_below="@id/imgFerrari"
+        android:layout_marginLeft="@android:dimen/app_icon_size"
+        android:layout_below="@id/imgMercedes"
         android:id="@+id/imgPorsche"
         android:layout_width="150dp"
         android:layout_height="150dp"
