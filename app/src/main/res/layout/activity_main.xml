@@ -7,39 +7,61 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
     <ImageView
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="-50dp"
+        android:layout_marginBottom="-30dp"
+
+
         android:id="@+id/imgBmw"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
         android:scaleType="centerCrop"
         android:src="@drawable/bmw" />
 
     <ImageView
-        android:layout_toLeftOf=""
+        android:layout_toEndOf="@id/imgBmw"
         android:layout_below="@+id/imgBmw"
+        android:layout_marginEnd="-35dp"
         android:id="@+id/imgMercedes"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
         android:scaleType="centerCrop"
         android:src="@drawable/mercedes" />
 
     <ImageView
-        android:layout_marginLeft="@android:dimen/app_icon_size"
+
         android:layout_toEndOf="@id/imgMercedes"
         android:layout_below="@+id/imgMercedes"
+        android:layout_marginTop="-25dp"
+        android:paddingRight="50dp"
         android:id="@+id/imgFerrari"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
         android:scaleType="centerCrop"
         android:src="@drawable/ferrari" />
+    <ImageView
+
+        android:layout_toEndOf="@id/imgMercedes"
+        android:layout_below="@+id/imgMercedes"
+        android:layout_marginTop="-210dp"
+        android:paddingRight="50dp"
+        android:id="@+id/imgMerdedes"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/maserati" />
 
     <ImageView
-        android:layout_marginLeft="@android:dimen/app_icon_size"
+
+        android:layout_marginTop="-25dp"
+
+        android:layout_marginLeft="50dp"
         android:layout_below="@id/imgMercedes"
         android:id="@+id/imgPorsche"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
         android:scaleType="centerCrop"
         android:src="@drawable/porsche" />
 
